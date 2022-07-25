@@ -22,7 +22,7 @@
 		<!-- Header Section Start -->
 		<header>
 			<!-- Navbar Start -->
-			<nav class="navbar navbar-expand-md bg-light shadow sticky-top p-4">
+			<nav class="navbar navbar-expand-md bg-light shadow fixed-top p-4">
 				<div class="container container-fluid">
 					<a class="navbar-brand" href="#">
 						<img class="img-fluid" w-100 src="./images/logo.png" alt="">
@@ -39,13 +39,13 @@
 								<a class="nav-link active" aria-current="page" href="#">Home</a>
 							</li>
 							<li class="nav-item fs-5 fw-bold ms-3">
-								<a class="nav-link" href="#">Shoes</a>
+								<a class="nav-link" href="#shoes">Shoes</a>
 							</li>
 							<li class="nav-item fs-5 fw-bold ms-3">
-								<a class="nav-link" href="#">Backpacks</a>
+								<a class="nav-link" href="#bags">Backpacks</a>
 							</li>
 							<li class="nav-item fs-5 fw-bold ms-3">
-								<a class="nav-link" href="#">Subscribe</a>
+								<a class="nav-link" href="#subscribe">Subscribe</a>
 							</li>
 						</nav>
 						<!-- <form class="d-flex" role="search">
@@ -58,7 +58,7 @@
 			<!-- Navbar End -->
 
 			<!-- Slider Start -->
-			<section class="image-slider container mt-5">
+			<section style="margin-top: 120px;" class="image-slider container">
 				<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" data-interval="2500">
 					<div class="carousel-indicators">
 						<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
@@ -69,7 +69,7 @@
 							aria-label="Slide 3"></button>
 					</div>
 					<div class="carousel-inner">
-						<div class="carousel-item primary-background active">
+						<div class="carousel-item primary-background active rounded-5">
 							<div class="row container p-5">
 								<div class="col-lg-7 d-flex align-items-center">
 									<div class="product-information">
@@ -86,7 +86,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="carousel-item primary-background">
+						<div class="carousel-item primary-background rounded-5">
 							<div class="row container p-5">
 								<div class="col-lg-7 d-flex align-items-center">
 									<div class="product-information">
@@ -103,7 +103,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="carousel-item primary-background">
+						<div class="carousel-item primary-background rounded-5">
 							<div class="row container p-5">
 								<div class="col-lg-7 d-flex align-items-center">
 									<div class="product-information">
@@ -176,7 +176,7 @@
 			<!-- Categories End -->
 
 			<!-- Shoes Section Start -->
-			<section class="container shoes my-5">
+			<section id="shoes" class="container my-5">
 				<div class=" container d-flex justify-content-between">
 					<h2>Shoes</h2>
 					<p>See All</p>
@@ -234,7 +234,7 @@
 			<!-- Shoes Section End -->
 
 			<!-- Bags Section Start -->
-			<section class="container bags my-5">
+			<section id="bags" class="container my-5">
 				<div class=" container d-flex justify-content-between">
 					<h2>Backpack</h2>
 					<p>See All</p>
@@ -290,8 +290,36 @@
 				</div>
 			</section>
 			<!-- Bags Section End -->
+
+			<!-- Subscribe Section Start -->
+			<section id="subscribe" style="height: 350px;"
+				class="container my-5 primary-background p-5 d-flex justify-content-center align-items-center rounded-3">
+				<!-- Information Start -->
+				<div class="information">
+					<h2>Let's Stay in Touch</h2>
+					<p>Get updates on sales specials and more</p>
+					<!-- Form Start -->
+					<form>
+						<div class="mb-1">
+							<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Your Email">
+						</div>
+						<button type="submit" class="btn btn-primary">Submit</button>
+					</form>
+					<!-- Form End -->
+				</div>
+				<!-- Information End -->
+			</section>
+			<!-- Subscribe Section End -->
 		</main>
 		<!-- Main Section End -->
+
+		<!-- Footer Start -->
+		<footer class="mt-5 text-center bg-black text-white p-5">
+			<div class="container footer-information">
+				<p><small>All Right Reserved to Shekh Rasel Masrur Ahmmad</small></p>
+			</div>
+		</footer>
+		<!-- Footer End -->
 
 
 
