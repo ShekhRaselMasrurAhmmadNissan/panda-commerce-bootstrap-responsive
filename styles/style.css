@@ -11,3 +11,23 @@
 .primary-background {
 	background-color: var(--primary-background);
 }
+
+.button-background {
+	background-image: var(--button-background);
+}
+
+.price {
+	color: var(--price-color);
+}
+
+.watch-background {
+	background-image: var(--watch-background);
+}
+
+.bag-background {
+	background-image: var(--bag-background);
+}
+
+.shoe-background {
+	background-image: var(--shoe-background);
+}
